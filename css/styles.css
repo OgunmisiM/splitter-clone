@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cce6ff;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.text-heading {
+    margin: 4rem auto 3rem;
+    width: min-content;
+    color: #0a5c5c;
+}
+
+h3 {
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.top {
+    letter-spacing: 4px;
+}
+
+.bottom {
+    letter-spacing: 4px;
+}
+
+.center {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.left-side {
+    margin-bottom: 5px;
+    padding: 10px 5px;
+    /* height: 50%; */
+    border-radius: 8px;
+}
+
+.icon_input {
+    position: relative;
+    color: #aaa;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.icon_input input {
+    width: 300px;
+    height: 32px;
+    background: #efffff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+    outline: none;
+    font-size: larger;
+    color: #12a1a1;
+}
+
+.icon_input .fa-dollar-sign {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon_input .fa-user {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.label {
+    margin: 5px;
+    color: #12a1a1;
+}
+
+.tipSelect {
+    margin: 10px 5px;
+}
+
+.tipSelect p {
+    color: #12a1a1;
+}
+
+.button {
+    width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+}
+
+button {
+    margin: 5px 10px 0px 0px;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    background-color: #0a5c5c;
+    border-radius: 5px;
+    color: #f2f2f2;
+    border-width: 0.5px;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: #0a5c5c;
+}
+
+.custom_button {
+    background-color: #f2f2f2;
+    color: #0a5c5c;
+}
+
+.custom_button:hover {
+    background-color: #0a5c5c;
+    color: #f2f2f2;
+}
+
+.right-side {
+    background-color: #0a5c5c;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    padding: 10px 5px;
+    /* height: 50%; */
+}
+
+.tipAmount,
+.total {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount_font {
+    color: #e6ffff;
+}
+
+.person_font {
+    color: #00b3b3;
+    font-size: smaller;
+}
+
+.amount {
+    font-size: larger;
+    color: #02d6c7;
+}
+
+.reset {
+    display: block;
+    margin: 70px auto 10px auto;
+    width: 80%;
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 900px) {
+    .center {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .left-side {
+        margin: 10px auto;
+        padding: 10px 5px;
+        width: 47%;
+        border-radius: 8px;
+    }
+    .right-side {
+        background-color: #0a5c5c;
+        margin: 10px auto;
+        border-radius: 8px;
+        padding: 10px 5px;
+        width: 47%;
+    }
+    .icon_input input {
+        width: 90%;
+        height: 32px;
+    }
+}
